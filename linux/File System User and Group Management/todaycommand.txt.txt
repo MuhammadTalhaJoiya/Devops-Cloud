@@ -1,0 +1,203 @@
+muhammadtalhajoiya@DESKTOP-2P8P7KD:~$ history
+    1  sudo
+    2  sudo apt update
+    3  apt list --upgradable
+    4  traceroute netflix.com
+    5  sudo apt traceroute
+    6  ping google.com
+    7  ifconfig
+    8  Ifconfig
+    9  ifconfig
+   10  sudo apt install net-tools
+   11  ifconfig
+   12  ssh ubuntu@192.168.1.1
+   13  ls
+   14  #!/bin/bash
+   15  echo "I am devops engineer"
+   16  nano script.sh
+   17  ls
+   18  sh script.sh
+   19  pwd
+   20  cd ~
+   21  pwd
+   22  whoami
+   23  sudo i
+   24  pwd
+   25  whoami
+   26  sudo i
+   27  ls
+   28  pwd
+   29  mkdir talha.txt
+   30  ls
+   31  ls -al
+   32  ls -l
+   33  cd talha.txt/
+   34  ls
+   35  pwd
+   36  vim file.txt
+   37  vi file.txt
+   38  ls
+   39  pwd
+   40  cd ..
+   41  ls
+   42  cd home/
+   43  ls
+   44  cd muhammadtalhajoiya/
+   45  ls
+   46  pwd
+   47  cd ~
+   48  ls
+   49  pwd
+   50  cd ~
+   51  ls
+   52  pwd
+   53  cd ..
+   54  ls
+   55  cd usr/
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd home/
+   60  ls
+   61  cd muhammadtalhajoiya/
+   62  ls
+   63  rm talha.txt/
+   64  ls
+   65  pwd
+   66  cd /
+   67  ls
+   68  cd ~
+   69  ls
+   70  pwd
+   71  cd talha.txt/
+   72  cat "asdkl"
+   73  cd ~
+   74  ls
+   75  pwd
+   76  cd /
+   77  ls
+   78  cd var/
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd etc/
+   83  ls
+   84  cd ..
+   85  ls
+   86  cd var/
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd usr/
+   91  ls
+   92  cd ..
+   93  ls -l /
+   94  pwd
+   95  ls
+   96  cd /home/muhammadtalhajoiya/
+   97  ls
+   98  cd /etc
+   99  ls
+  100  pwd
+  101  cd /home/
+  102  ls
+  103  cd muhammadtalhajoiya/
+  104  cd ..
+  105  cd /etc/
+  106  cd  ~
+  107  ls
+  108  cd etc
+  109  cd etc/
+  110  cd /etc
+  111  ls
+  112  cd ..
+  113  ls
+  114  pwd
+  115  sudo adduser joiya
+  116  ls
+  117  pwd
+  118  cd etc/
+  119  ls
+  120  cd pam.d/
+  121  cd ..
+  122  cd passwd
+  123  ls
+  124  cat paswd
+  125  cd ~
+  126  cat /etc/passwd
+  127  ls
+  128  cd /etc
+  129  ls
+  130  ls -al
+  131  cd ~
+  132  pwd
+  133  cd /
+  134  ls
+  135  cat /etc/passwd
+  136  sudo adduser Ali
+  137  sudo adduser ali
+  138  cat /etc/passwd
+  139  grep "ali" /etc/passwd
+  140  grep "joiya" /etc/passwd
+  141  sudo groupadd cloudOpsteam
+  142  cd /etc
+  143  ls -al
+  144  ls
+  145  ls -al
+  146  cd g
+  147  cd /etc/group
+  148  cat /etc/group
+  149  sudo groupadd devop_team
+  150  cat /etc/group
+  151  grep devops_team /etc/group
+  152  grep devop_team /etc/group
+  153  getend devop_team /etc/group
+  154  getent devop_team /etc/group
+  155  getent group devop_team /etc/group
+  156  sudo adduser umer
+  157  cat /etc/passwd
+  158  sudo usermod -aG devop_team joiya ali
+  159  cat /etc/group
+  160  groups joiya
+  161  groups ali
+  162  groups umer
+  163  sudo usermod -aG devop_team joiya
+  164  groups joiya
+  165  sudo usermod -aG devop_team alu
+  166  sudo usermod -aG devop_team ali
+  167  groups ali
+  168  groups umer
+  169  cat /etc/groups
+  170  cat /etc/group
+  171  cat /etc/passwd
+  172  sudo usermod -aG cloudOpsteam umer
+  173  groups umer
+  174  cat /etc/group
+  175  history
+  176  cd /
+  177  ls
+  178  cd ~
+  179  cd /
+  180  cd usr/
+  181  ls
+  182  su ali
+  183  ls
+  184  cd /
+  185  ls
+  186  cd ~
+  187  pwd
+  188  sudo passwd ali
+  189  sudo passwd joiya
+  190  sudo passwd umer
+  191  ls
+  192  su ali
+  193  su joiya
+  194  su umer
+  195  history
+  196  ls
+  197  cd /etc/passwd
+  198  cd /etc/psswd
+  199  cat /etc/psswd
+  200  cat /etc/passwd
+  201  history
+muhammadtalhajoiya@DESKTOP-2P8P7KD:~$
