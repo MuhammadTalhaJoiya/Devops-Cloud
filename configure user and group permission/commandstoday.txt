@@ -44,3 +44,34 @@ $ history
    43  chmod 400 "deploy_application.pem"
    44  ssh -i "deploy_application.pem" ubuntu@ec2-54-235-52-40.compute-1.amazonaws.com
    45  history
+
+
+# Create a log file
+echo "INFO: Backup completed successfully" > ~/backup-assignment/app-logs/log2.txt
+
+# Create a README file for backup instructions
+echo "This is the README file for backup instructions." > ~/backup-assignment/docs/readme.txt
+
+# Zip specific files and directories
+zip -r ~/backup-assignment/full-backup.zip ~/backup-assignment/app-logs/log2.txt ~/backup-assignment/configs/app.conf ~/backup-assignment/docs/
+
+# List contents of a zip file
+unzip -l ~/backup-assignment/full-backup.zip
+
+# Tar archive (uncompressed)
+tar -cvf ~/backup-assignment/backup.tar ~/backup-assignment/
+
+# Tar + gzip compression
+tar -czvf ~/backup-assignment/backup.tar.gz ~/backup-assignment/
+
+# Tar + bzip2 compression
+tar -cjvf ~/backup-assignment/backup.tar.bz2 ~/backup-assignment/
+
+# List contents of a tar archive
+tar -tvf ~/backup-assignment/backup.tar.gz
+
+# Extract tar + gzip archive
+tar -xzvf ~/backup-assignment/backup.tar.gz -C ~/restore-folder/
+
+# Extract tar + bzip2 archive
+tar -xjvf ~/backup-assignment/backup.tar.bz2 -C ~/restore-folder/
