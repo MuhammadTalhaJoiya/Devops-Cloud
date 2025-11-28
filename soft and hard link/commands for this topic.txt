@@ -1,0 +1,62 @@
+ubuntu@ip-172-31-23-183:~/cloudx/dev-env$ history
+    1  mkdir -p ~/cloudx/configs
+    2  ls
+    3  echo "user nginx;" > ~/cloudx/configs/nginx.config
+    4  cat ~/cloudx/configs/nginx.config
+    5  ln -s ~/cloudx/configs/nginx.config ~/cloudx/dev-env/nginx..config
+    6  mkdir ~/cloudx/dev-env
+    7  ls -l ~/cloudx/dev-env/
+    8  ls -l ~/cloudx
+    9  ls -l ~/cloudx/dev-env/nginx.conf
+   10  echo "dev-env text;" > ~/cloudx/dev-env/nginx.config
+   11  ln -s ~/cloudx/configs/nginx.config ~/cloudx/dev-env/nginx.config
+   12  rmdir ~/cloudx/configs/
+   13  mkdir -p ~/cloudx/dev-env
+   14  ls
+   15  cd cloudx/
+   16  ls
+   17  cd dev-env/
+   18  ls
+   19* cat nginx.config ln -s ~/cloudx/configs/nginx.conf ~/cloudx/dev-env/nginx.conf
+   20  cd ..
+   21  cd ~
+   22  ln -s ~/cloudx/configs/nginx.config ~/cloudx/dev-env/nginx.config
+   23  rm ~/cloudx/dev-env/nginx.config
+   24  ln -s ~/cloudx/configs/nginx.config ~/cloudx/dev-env/nginx.config
+   25  ls\
+   26  ls
+   27  clear
+   28  ls
+   29  cd cloudx/
+   30  ls
+   31  cd dev-env/
+   32  ls
+   33  ls -l
+   34  cd ~
+   35  cat ~/cloudx/dev-env/nginx.config
+   36  mkdir -p ~/cloudx/monitoring
+   37  ln ~/cloudx/configs/nginx.config ~/cloudx/monitoring/nginx.config
+   38  ls -l ~/cloudx/monitoring/nginx.config
+   39  ls -li ~/cloudx/configs/nginx.conf ~/cloudx/monitoring/nginx.conf
+   40  ls -li ~/cloudx/configs/nginx.config ~/cloudx/monitoring/nginx.config
+   41  rm ~/cloudx/configs/nginx.conf
+   42  rm ~/cloudx/configs/nginx.config
+   43  ls
+   44  cd cloudx/
+   45  ls
+   46  cd configs/
+   47  ls
+   48  cd ~
+   49  ls
+   50  cd cloudx/
+   51  cd dev-env/
+   52  ls
+   53  cat ~/cloudx/dev-env/nginx.conf
+   54  cd ~
+   55  cat ~/cloudx/dev-env/nginx.config
+   56  cd cloudx/
+   57  cd dev-env/
+   58  ls
+   59  cat nginx.config
+   60  cat ~/cloudx/monitoring/nginx.config
+   61  history
