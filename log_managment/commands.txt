@@ -1,0 +1,114 @@
+$ history
+    1  chmod 400 "secure_server.pem"
+    2  ssh -i "secure_server.pem" ubuntu@ec2-34-201-71-51.compute-1.amazonaws.com
+    3  chmod 400 "secure_server.pem"
+    4  ssh -i "secure_server.pem" ubuntu@ec2-107-21-87-88.compute-1.amazonaws.com
+    5  sudo systemctl status nginx
+    6  chmod 400 "secure_server.pem"
+    7  ssh -i "secure_server.pem" ubuntu@ec2-107-21-87-88.compute-1.amazonaws.com
+    8  ssh -i "secure_server.pem" ubuntu@ec2-107-21-87-88.compute-1.amazonaws.com
+    9  chmod 400 "secure_server.pem"
+   10  ssh -i "secure_server.pem" ubuntu@ec2-107-21-87-88.compute-1.amazonaws.com
+   11  chmod 400 "secure_server.pem"
+   12  ssh -i "secure_server.pem" ubuntu@ec2-3-89-116-154.compute-1.amazonaws.com
+   13  chmod 400 "key_secure.pem"
+   14  ssh -i "key_secure.pem" ec2-user@ec2-3-88-113-118.compute-1.amazonaws.com
+   15  chmod 400 "key_secure.pem"
+   16  ssh -i "key_secure.pem" ec2-user@ec2-3-88-113-118.compute-1.amazonaws.com
+   17  chmod 400 "deploy_app.pem"
+   18  ssh -i "deploy_app.pem" ubuntu@ec2-13-222-163-145.compute-1.amazonaws.com
+   19  git status
+   20  git add run\ linux\ server\ on\ aws/
+   21  git status
+   22  git commit -m "run server on aws by EC2"
+   23  git push origin main
+   24  clear
+   25  chmod 400 "deploy_application.pem"~
+   26  chmod 400 "deploy_application.pem"
+   27  ssh -i "deploy_application.pem" ubuntu@ec2-52-91-98-244.compute-1.amazonaws.com
+   28  ssh -i "deploy_application.pem" ubuntu@ec2-52-91-98-244.compute-1.amazonaws.com
+   29  chmod 400 "sec_key.pem"
+   30  ssh -i "sec_key.pem" ubuntu@ec2-107-20-122-218.compute-1.amazonaws.com
+   31  sudo apt-get update
+   32  ssh -i "sec_key.pem" ubuntu@ec2-107-20-122-218.compute-1.amazonaws.com
+   33  git status
+   34  git add /basic linux command
+   35  git status
+   36  git status
+   37  git add basic linux command/
+   38  ls
+   39  git add 'basic linux command'/
+   40  git status
+   41  git commit -m "basic linux command lec 14"
+   42  git push origin main
+   43  chmod 400 "deploy_application.pem"
+   44  ssh -i "deploy_application.pem" ubuntu@ec2-54-235-52-40.compute-1.amazonaws.com
+   45  history
+   46  pwd
+   47  chmod 400 "deploy_application.pem"
+   48  ssh -i "deploy_application.pem" ubuntu@ec2-3-80-84-87.compute-1.amazonaws.com
+   49  chmod 400 "deploy_application.pem"
+   50  ssh -i "deploy_application.pem" ubuntu@ec2-3-80-84-87.compute-1.amazonaws.com
+   51  chmod 400 "deploy_application.pem"
+   52  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-110-74.compute-1.amazonaws.com
+   53  chmod 400 "deploy_application.pem"
+   54  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-110-74.compute-1.amazonaws.com
+   55  chmod 400 "deploy_application.pem"
+   56  ssh -i "deploy_application.pem" ec2-user@ec2-44-223-0-250.compute-1.amazonaws.com
+   57  hsitory
+   58  history
+   59  chmod 400 "deploy_application.pem"
+   60  ssh -i "deploy_application.pem" ubuntu@ec2-3-91-249-23.compute-1.amazonaws.com
+   61  ls
+   62  ssh -i "deploy_application.pem" ubuntu@ec2-3-91-249-23.compute-1.amazonaws.com
+   63  ssh -i "deploy_application.pem" ubuntu@ec2-3-91-249-23.compute-1.amazonaws.com
+   64  ssh -i "deploy_application.pem" ubuntu@ec2-3-91-249-23.compute-1.amazonaws.com
+   65  ssh -i "deploy_application.pem" ubuntu@ec2-3-91-249-23.compute-1.amazonaws.com
+   66  chmod 400 "deploy_application.pem"~
+   67  chmod 400 "deploy_application.pem"
+   68  ssh -i "deploy_application.pem" ubuntu@ec2-18-208-142-149.compute-1.amazonaws.com
+   69  chmod 400 "deploy_application.pem"
+   70  ssh -i "deploy_application.pem" ubuntu@ec2-18-208-142-149.compute-1.amazonaws.com
+   71  chmod 400 "deploy_application.pem"
+   72  ssh -i "deploy_application.pem" ubuntu@ec2-18-208-142-149.compute-1.amazonaws.com
+   73  chmod 400 "deploy_application.pem"
+   74  ssh -i "deploy_application.pem" ubuntu@ec2-18-208-142-149.compute-1.amazonaws.com
+   75  ssh -i "deploy_application.pem" ubuntu@ec2-18-208-142-149.compute-1.amazonaws.com
+   76  chmod 400 "deploy_application.pem"
+   77  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   78  chmod 400 "deploy_application.pem"
+   79  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   80  chmod 400 "deploy_application.pem"
+   81  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   82  chmod 400 "deploy_application.pem"
+   83  ssh -i "deploy_application.pem" ubuntu@ec2-13-220-104-83.compute-1.amazonaws.com
+   84  chmod 400 "deploy_application.pem"
+   85  ssh -i "deploy_application.pem" ubuntu@ec2-13-220-104-83.compute-1.amazonaws.com
+   86  ssh -i "deploy_application.pem" ubuntu@ec2-13-220-104-83.compute-1.amazonaws.com
+   87  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   88  chmod 400 "deploy_application.pem"
+   89  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   90  ssh -i "deploy_application.pem" ubuntu@ec2-3-84-212-168.compute-1.amazonaws.com
+   91  ssh -i "deploy_application.pem" ubuntu@ec2-13-220-104-83.compute-1.amazonaws.com
+   92  ssh -i "deploy_application.pem" ubuntu@ec2-13-220-104-83.compute-1.amazonaws.com
+   93  chmod 400 "deploy_application.pem"
+   94  ssh -i "deploy_application.pem" ubuntu@ec2-54-226-117-224.compute-1.amazonaws.com
+   95  ssh -i "deploy_application.pem" ubuntu@ec2-54-226-117-224.compute-1.amazonaws.com
+   96  ssh -i "deploy_application.pem" ubuntu@ec2-54-226-117-224.compute-1.amazonaws.com
+   97  chmod 400 "deploy_application.pem"
+   98  ssh -i "deploy_application.pem" ubuntu@ec2-54-226-117-224.compute-1.amazonaws.com
+   99  ssh -i "deploy_application.pem" ubuntu@ec2-54-226-117-224.compute-1.amazonaws.com
+  100  chmod 400 "deploy_application.pem"
+  101  ssh -i "deploy_application.pem" ubuntu@ec2-54-242-68-173.compute-1.amazonaws.com
+  102  ssh -i "deploy_application.pem" ubuntu@ec2-54-242-68-173.compute-1.amazonaws.com
+  103  ssh -i "deploy_application.pem" ubuntu@ec2-54-242-68-173.compute-1.amazonaws.com
+  104  chmod 400 "deploy_application.pem"
+  105  ssh -i "deploy_application.pem" ubuntu@ec2-54-161-40-82.compute-1.amazonaws.com
+  106  chmod 400 "IAM_key2.pem"
+  107  ssh -i "IAM_key2.pem" ubuntu@ec2-13-221-116-45.compute-1.amazonaws.com
+  108  ssh -i "IAM_key2.pem" ubuntu@ec2-13-221-116-45.compute-1.amazonaws.com
+  109  ssh -i "IAM_key2.pem" ubuntu@ec2-13-221-116-45.compute-1.amazonaws.com
+  110  chmod 400 "IAM_key2.pem"
+  111  ssh -i "IAM_key2.pem" ubuntu@ec2-54-172-238-111.compute-1.amazonaws.com
+  112  ssh -i "IAM_key2.pem" ubuntu@ec2-54-172-238-111.compute-1.amazonaws.com
+  113  history
