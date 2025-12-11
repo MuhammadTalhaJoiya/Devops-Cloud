@@ -1,0 +1,1 @@
+today:I made instance and IAM user and inside IAM user,I made volume and attached it to my instance and partitioned it
