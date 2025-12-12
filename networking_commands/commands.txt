@@ -1,0 +1,36 @@
+ubuntu@ip-172-31-4-97:~$ history
+    1  clear
+    2  ip a
+    3  ping google.com
+    4  curl ifconfig.me
+    5  netstat -tulnp
+    6  sudo apt install net-tools
+    7  curl ifconfig.me
+    8  netstat -tulnp
+    9  ss -tuln~
+   10  ss -tuln
+   11  wget htcleaom/sample.txt
+   12  wget https://www.w3.org/TR/PNG/iso_8859-1.txt
+   13  ld
+   14  ls
+   15  traceroute google.com
+   16  sudo apt install traceroute
+   17  sudo apt install inetutils-traceroute
+   18  sudo apt update
+   19  sudo apt install traceroute
+   20  traceroute google.com
+   21  ifconfig
+   22  nslookup google.com
+   23  grep "error" /var/log/syslog
+   24  find /etc -name "nginx*"~
+   25  find /etc -name "nginx*"
+   26  sudo apt install nginx
+   27  find /etc -name "nginx*"
+   28  history
+   29  cut -d':' -f1 /etc/passwd
+   30  sudo apt install ufw
+   31  sudo ufw enable
+   32  sudo ufw allow ssh
+   33  sudo ufw allow http
+   34  sudo ufw status verbose
+   35  history
