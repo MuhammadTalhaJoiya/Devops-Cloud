@@ -1,0 +1,10 @@
+grep "pattern" file               # basic
+grep -i "pattern" file            # case-insensitive
+grep -n "pattern" file            # show line numbers
+grep -r "pattern" /path           # recursive
+grep -v "pattern" file            # invert (exclude)
+grep -o "pattern" file            # show only matched text
+grep -c "pattern" file            # count matches
+grep -E "a|b" file                # extended regex / alternation
+grep -F "fixed string" file       # fixed (fast), no regex
+tail -F file | grep --line-buffered "pattern"   # real-time match
