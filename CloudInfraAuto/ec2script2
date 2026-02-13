@@ -1,0 +1,26 @@
+#!/bin/bash
+
+INSTANCE_TYPE="t2.micro"
+AMI_ID="ami-0fb0b230890ccd1e6"
+KEY_NAME="class8"
+SECURITY_GROUP_ID="sg-07b83de5487258dc5"
+INSTANCE_NAME="talha-instance3"
+
+# Run the instance and capture the output
+OUTPUT=$(aws ec2 run-instances \
+  --image-id $AMI_ID \
+  --instance-type $INSTANCE_TYPE \
+  --key-name $KEY_NAME \
+  --security-group-ids $SECURITY_GROUP_ID \
+  --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$INSTANCE_NAME}]" 2>&1)
+
+# Check if command succeeded
+if [ $? -eq 0 ]; then
+  INSTANCE_ID=$(echo "$OUTPUT" | grep -o '"InstanceId": "[^"]*' | head -1 | cut -d'"' -f4)
+  echo "✅ EC2 instance '$INSTANCE_NAME' launched successfully."
+  echo "Instance ID: $INSTANCE_ID"
+else
+  echo "❌ Error launching instance:"
+  echo "$OUTPUT"
+  exit 1
+fi
