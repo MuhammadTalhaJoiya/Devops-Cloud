@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SOURCE_DIR="/workspaces/lab-environment-MuhammadTalhaJoiya/Devops-Cloud/"
+BACKUP_DIR="/backup"
+S3_BUCKET="s3://joiya-buck"  # ✅ Correct format for CLI
+
+sudo mkdir -p $BACKUP_DIR
+sudo cp -r $SOURCE_DIR $BACKUP_DIR
+aws s3 sync $BACKUP_DIR $S3_BUCKET
+
+echo "✅ Backup completed successfully."
