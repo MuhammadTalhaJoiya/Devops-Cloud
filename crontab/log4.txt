@@ -1,0 +1,8 @@
+Checking disk usage...
+✅ / is at 36% full (OK)
+✅ /dev is at 0% full (OK)
+✅ /dev/shm is at 0% full (OK)
+✅ /vscode is at 74% full (OK)
+✅ /tmp is at 6% full (OK)
+✅ /workspaces is at 36% full (OK)
+Done!
