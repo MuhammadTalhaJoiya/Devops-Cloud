@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Ask user for folder name
+read -p "Enter your folder name: " folder
+
+# Check if input is empty
+if [ -z "$folder" ]; then
+    echo "❌ Error: No folder name provided."
+    echo "Please run the script again."
+else
+
+    # Check if folder already exists
+    if [ -d "$folder" ]; then
+        echo "📁 Folder '$folder' already exists."
+    else
+        read -p "Do you want to create folder '$folder'? (Y/N): " cond
+
+        if [[ "$cond" == "y" || "$cond" == "Y" ]]; then
+            mkdir "$folder" && echo "✅ Folder created successfully."
+        else
+            echo "❌ Folder creation cancelled."
+        fi
+    fi
+
+fi
+
+echo "👉 Script finished."
