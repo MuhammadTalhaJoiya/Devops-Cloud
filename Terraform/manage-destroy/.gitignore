@@ -1,0 +1,10 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Terraform directory
+.terraform/
